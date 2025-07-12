@@ -5,7 +5,7 @@ let contentBox = document.querySelector(".content-box");
 let alarmTime, isAlarmSet = false;
 let ringtone = new Audio("./assets/ringtone.mp3")
 
-for(let i = 12; i > 0; i --)
+for(let i = 24; i > 0; i --)
 {
   i = i < 10 ? "0"+i : i
   let option = `<option value="${i}">${i}</option>`
